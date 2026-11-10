@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960" width="720" height="960">
+  <!-- Contact Shadow -->
+  <ellipse cx="360" cy="880" rx="200" ry="60" fill="#222222" fill-opacity="0.12"/>
+
+  <!-- Trousers (Beige/Cream) - Bottom visible in OTS -->
+  <g transform="translate(0, 100)">
+    <polygon points="300,750 360,785 360,860 300,825" fill="#faf6ef"/>
+    <polygon points="360,785 420,750 420,825 360,860" fill="#e6dfd5"/>
+    <polygon points="300,750 360,715 420,750 360,785" fill="#ffffff"/>
+  </g>
+
+  <!-- Torso / Teal Sweater (Back View) -->
+  <g>
+    <!-- Main Back Block -->
+    <polygon points="240,580 360,650 360,820 240,750" fill="#1f9d8a"/>
+    <polygon points="360,650 480,580 480,750 360,820" fill="#14695c"/>
+    <polygon points="240,580 360,510 480,580 360,650" fill="#43c6b2"/>
+
+    <!-- Left Arm (Holding Phone) -->
+    <g transform="translate(-40, 20)">
+      <polygon points="180,550 240,585 240,650 180,615" fill="#1f9d8a"/>
+      <polygon points="240,585 300,550 300,615 240,650" fill="#14695c"/>
+      <polygon points="180,550 240,515 300,550 240,585" fill="#43c6b2"/>
+    </g>
+
+    <!-- Right Arm (Raised Gesture) -->
+    <g transform="translate(40, -10)">
+      <polygon points="420,550 480,585 480,650 420,615" fill="#1f9d8a"/>
+      <polygon points="480,585 540,550 540,615 480,650" fill="#14695c"/>
+      <polygon points="420,550 480,515 540,550 480,585" fill="#43c6b2"/>
+      <!-- Forearm raised -->
+      <polygon points="520,400 560,423 560,550 520,527" fill="#1f9d8a"/>
+      <polygon points="560,423 600,400 600,527 560,550" fill="#14695c"/>
+      <polygon points="520,400 560,377 600,400 560,423" fill="#43c6b2"/>
+    </g>
+  </g>
+
+  <!-- Head (Dark Bob Cut - Back View) -->
+  <g transform="translate(0, -30)">
+    <!-- Hair Block -->
+    <polygon points="280,420 360,466 360,550 280,504" fill="#222222"/>
+    <polygon points="360,466 440,420 440,504 360,550" fill="#111111"/>
+    <polygon points="280,420 360,374 440,420 360,466" fill="#222222"/>
+    <!-- Neck -->
+    <polygon points="340,540 360,552 360,570 340,558" fill="#faf6ef"/>
+    <polygon points="360,552 380,540 380,558 360,570" fill="#e6dfd5"/>
+  </g>
+
+  <!-- "Simple" Idea Finger (Right Hand) -->
+  <g transform="translate(550, 320)">
+    <!-- Palm/Base -->
+    <polygon points="0,50 20,62 20,80 0,68" fill="#faf6ef"/>
+    <polygon points="20,62 40,50 40,68 20,80" fill="#e6dfd5"/>
+    <polygon points="0,50 20,38 40,50 20,62" fill="#ffffff"/>
+    <!-- Raised Finger -->
+    <polygon points="12,0 28,9 28,40 12,31" fill="#faf6ef"/>
+    <polygon points="28,9 44,0 44,31 28,40" fill="#e6dfd5"/>
+    <polygon points="12,0 28,-9 44,0 28,9" fill="#ffffff"/>
+  </g>
+
+  <!-- Glowing Smartphone (Left Hand) -->
+  <g transform="translate(200, 520)">
+    <!-- Phone Body -->
+    <polygon points="0,20 40,43 40,100 0,77" fill="#1f9d8a"/>
+    <polygon points="40,43 80,20 80,77 40,100" fill="#14695c"/>
+    <!-- Screen (Glowing) -->
+    <polygon points="0,20 40,-3 80,20 40,43" fill="#f59e0b"/>
+    <!-- Screen Light Glow (Gradient-like effect using stacked polygons) -->
+    <polygon points="10,20 40,3 70,20 40,37" fill="#ffffff" fill-opacity="0.4"/>
+  </g>
+
+  <!-- Floating Digital Chat Bubbles -->
+  <!-- Bubble Top Left (White) -->
+  <g transform="translate(120, 350)">
+    <polygon points="0,0 40,23 40,60 0,37" fill="#ffffff" fill-opacity="0.9"/>
+    <polygon points="40,23 50,17 50,54 40,60" fill="#e6dfd5" fill-opacity="0.9"/>
+    <polygon points="0,0 40,-23 50,-17 10,6" fill="#ffffff"/>
+  </g>
+
+  <!-- Bubble Right (Amber) -->
+  <g transform="translate(580, 520)">
+    <polygon points="0,0 30,17 30,45 0,28" fill="#f59e0b" fill-opacity="0.8"/>
+    <polygon points="30,17 40,11 40,39 30,45" fill="#d98c0a" fill-opacity="0.8"/>
+    <polygon points="0,0 30,-17 40,-11 10,6" fill="#fbbf24"/>
+  </g>
+
+  <!-- Bubble Far Top (White) -->
+  <g transform="translate(400, 220)">
+    <polygon points="0,0 50,29 50,15 0,-14" fill="#ffffff" fill-opacity="0.9"/>
+    <polygon points="50,29 60,23 60,9 50,15" fill="#e6dfd5" fill-opacity="0.9"/>
+    <polygon points="0,-14 50,-43 60,-37 10,-8" fill="#ffffff"/>
+  </g>
+
+  <!-- Small Detail: Hand holding phone -->
+  <g transform="translate(190, 570)">
+    <polygon points="0,10 20,22 20,40 0,28" fill="#faf6ef"/>
+    <polygon points="20,22 40,10 40,28 20,40" fill="#e6dfd5"/>
+    <polygon points="0,10 20,-2 40,10 20,22" fill="#ffffff"/>
+  </g>
+</svg>

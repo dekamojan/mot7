@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960" width="720" height="960">
+  <!-- Contact Shadow -->
+  <ellipse cx="360" cy="820" rx="280" ry="60" fill="#222222" fill-opacity="0.12"/>
+
+  <!-- Symbolic Object: The Box (Parcel) -->
+  <g transform="translate(240, 680)">
+    <!-- Main Box Body (Amber) -->
+    <polygon points="-80,-46 0,0 0,100 -80,54" fill="#f59e0b"/>
+    <polygon points="0,0 80,-46 80,54 0,100" fill="#d98c0a"/>
+    <polygon points="-80,-46 0,-92 80,-46 0,0" fill="#fbbf24"/>
+    
+    <!-- Packing Tape (Red) -->
+    <polygon points="-15,-9 15,9 15,109 -15,91" fill="#e5252a"/>
+    <polygon points="-15,-9 0,-18 15,-9 0,0" fill="#f65d62"/>
+    <polygon points="0,-92 -15,-83 0,-74 15,-83" fill="#f65d62"/>
+  </g>
+
+  <!-- Character: Girl in Side Profile -->
+  <g transform="translate(500, 0)">
+    <!-- Trousers (Beige/Cream) -->
+    <g transform="translate(0, 720)">
+      <!-- Single visible leg block for profile -->
+      <polygon points="-50,-30 40,22 40,110 -50,58" fill="#faf6ef"/>
+      <polygon points="40,22 70,5 70,93 40,110" fill="#e6dfd5"/>
+      <polygon points="-50,-30 0,-59 70,5 40,22" fill="#ffffff"/>
+    </g>
+
+    <!-- Torso (Teal Sweater) -->
+    <g transform="translate(0, 580)">
+      <polygon points="-60,-35 50,29 50,140 -60,76" fill="#1f9d8a"/>
+      <polygon points="50,29 80,12 80,123 50,140" fill="#14695c"/>
+      <polygon points="-60,-35 0,-70 80,12 50,29" fill="#43c6b2"/>
+    </g>
+
+    <!-- Arm holding phone (Profile view) -->
+    <g transform="translate(-40, 620)">
+      <polygon points="-100,20 -20,66 -20,106 -100,60" fill="#1f9d8a"/>
+      <polygon points="-20,66 0,55 0,95 -20,106" fill="#14695c"/>
+      <polygon points="-100,20 -80,9 0,55 -20,66" fill="#43c6b2"/>
+      
+      <!-- Glowing Smartphone -->
+      <g transform="translate(-110, 20)">
+        <polygon points="-10,-15 15,0 15,40 -10,25" fill="#1f9d8a"/>
+        <polygon points="15,0 30,-9 30,31 15,40" fill="#14695c"/>
+        <polygon points="-10,-15 5,-24 30,-9 15,0" fill="#f59e0b"/>
+      </g>
+    </g>
+
+    <!-- Head (Cream) -->
+    <g transform="translate(10, 480)">
+      <polygon points="-45,-26 35,20 35,90 -45,44" fill="#faf6ef"/>
+      <polygon points="35,20 65,3 65,73 35,90" fill="#e6dfd5"/>
+      <polygon points="-45,-26 0,-52 65,3 35,20" fill="#ffffff"/>
+      
+      <!-- Facial Features (Side Profile Relief) -->
+      <line x1="-25" y1="20" x2="-5" y2="30" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+      <path d="M -20 50 Q -10 55 0 50" fill="none" stroke="#222222" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Hair (Ink Bob Cut Profile) -->
+    <g transform="translate(10, 465)">
+      <polygon points="-55,-32 45,26 45,60 -55,2" fill="#222222"/>
+      <polygon points="45,26 75,9 75,43 45,60" fill="#111111"/>
+      <polygon points="-55,-32 0,-64 75,9 45,26" fill="#222222"/>
+      <!-- Side Bob -->
+      <polygon points="-55,2 -15,25 -15,100 -55,77" fill="#222222"/>
+      <polygon points="-15,25 45,60 45,110 -15,75" fill="#111111"/>
+    </g>
+  </g>
+
+  <!-- Floating Digital Chat Bubbles (Relief/Confirmation) -->
+  <g transform="translate(150, 450)">
+    <polygon points="0,0 40,23 40,10 0,-13" fill="#ffffff" fill-opacity="0.9"/>
+    <polygon points="40,23 50,17 50,4 40,10" fill="#e6dfd5" fill-opacity="0.9"/>
+    <polygon points="0,-13 40,-36 50,-30 10,-7" fill="#ffffff"/>
+  </g>
+  
+  <g transform="translate(580, 420)">
+    <polygon points="0,0 30,17 30,8 0,-9" fill="#f59e0b" fill-opacity="0.8"/>
+    <polygon points="30,17 40,11 40,2 30,8" fill="#d98c0a" fill-opacity="0.8"/>
+    <polygon points="0,-9 30,-26 40,-20 10,-3" fill="#fbbf24"/>
+  </g>
+
+  <g transform="translate(380, 320)">
+    <polygon points="0,0 50,29 50,15 0,-14" fill="#ffffff" fill-opacity="0.9"/>
+    <polygon points="50,29 60,23 60,9 50,15" fill="#e6dfd5" fill-opacity="0.9"/>
+    <polygon points="0,-14 50,-43 60,-37 10,-8" fill="#ffffff"/>
+  </g>
+</svg>

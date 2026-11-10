@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960" width="720" height="960">
+  <ellipse cx="360" cy="860" rx="160" ry="45" fill="#222222" fill-opacity="0.12"/>
+  <g id="trousers" transform="translate(0, 10)">
+    <polygon points="280,734 360,780 360,840 280,794" fill="#faf6ef"/>
+    <polygon points="360,780 440,734 440,794 360,840" fill="#e6dfd5"/>
+  </g>
+  <g id="torso">
+    <polygon points="280,580 360,534 440,580 360,626" fill="#43c6b2"/>
+    <polygon points="280,580 360,626 360,734 280,688" fill="#1f9d8a"/>
+    <polygon points="360,626 440,580 440,688 360,734" fill="#14695c"/>
+  </g>
+  <g id="arm-left-raised">
+    <polygon points="440,580 490,540 490,560 440,600" fill="#1f9d8a"/>
+    <polygon points="490,540 510,510 510,530 490,560" fill="#43c6b2"/>
+    <polygon points="500,500 520,510 520,530 500,520" fill="#faf6ef"/>
+  </g>
+  <g id="arm-right-holding">
+    <polygon points="280,580 320,630 320,650 280,600" fill="#1f9d8a"/>
+    <polygon points="320,630 380,610 380,630 320,650" fill="#14695c"/>
+    <polygon points="370,595 390,605 390,625 370,615" fill="#faf6ef"/>
+  </g>
+  <g id="phone" transform="translate(375, 580)">
+    <defs>
+      <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.6"/>
+        <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <circle cx="15" cy="15" r="40" fill="url(#glow)"/>
+    <polygon points="0,10 20,22 20,42 0,30" fill="#1f9d8a"/>
+    <polygon points="20,22 35,13 35,33 20,42" fill="#14695c"/>
+    <polygon points="0,10 15,1 35,13 20,22" fill="#f59e0b"/>
+  </g>
+  <g id="neck">
+    <polygon points="345,510 360,518 360,540 345,532" fill="#faf6ef"/>
+    <polygon points="360,518 375,510 375,532 360,540" fill="#e6dfd5"/>
+  </g>
+  <g id="head">
+    <polygon points="310,410 360,380 410,410 360,440" fill="#ffffff"/>
+    <polygon points="310,410 360,440 360,520 310,490" fill="#faf6ef"/>
+    <polygon points="360,440 410,410 410,490 360,520" fill="#e6dfd5"/>
+    <circle cx="375" cy="445" r="3" fill="#222222"/>
+    <circle cx="395" cy="435" r="3" fill="#222222"/>
+    <ellipse cx="388" cy="465" rx="4" ry="6" fill="#222222"/>
+    <path d="M 370 425 Q 375 415 380 422" fill="none" stroke="#222222" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 390 415 Q 395 405 400 412" fill="none" stroke="#222222" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <g id="hair">
+    <polygon points="300,410 360,370 420,410 360,450" fill="#222222"/>
+    <polygon points="300,410 320,423 320,490 300,477" fill="#222222"/>
+    <polygon points="400,423 420,410 420,477 400,490" fill="#111111"/>
+    <polygon points="320,423 360,450 360,465 320,438" fill="#222222"/>
+    <polygon points="360,450 400,423 400,438 360,465" fill="#111111"/>
+  </g>
+  <g id="bubble1" transform="translate(150, 480)">
+    <polygon points="0,0 40,23 40,50 0,27" fill="#ffffff" fill-opacity="0.9"/>
+    <polygon points="40,23 50,17 50,44 40,50" fill="#e6dfd5" fill-opacity="0.9"/>
+    <polygon points="0,0 10,-6 50,17 40,23" fill="#ffffff"/>
+  </g>
+  <g id="bubble2" transform="translate(520, 420)">
+    <polygon points="0,0 30,17 30,37 0,20" fill="#3b6fd8" fill-opacity="0.2"/>
+    <polygon points="30,17 40,11 40,31 30,37" fill="#3b6fd8" fill-opacity="0.3"/>
+    <polygon points="0,0 10,-6 40,11 30,17" fill="#ffffff" fill-opacity="0.5"/>
+  </g>
+  <g id="bubble3" transform="translate(560, 580)">
+    <polygon points="0,0 45,26 45,46 0,20" fill="#f59e0b" fill-opacity="0.15"/>
+    <polygon points="45,26 55,20 55,40 45,46" fill="#f59e0b" fill-opacity="0.25"/>
+    <polygon points="0,0 10,-6 55,20 45,26" fill="#ffffff" fill-opacity="0.6"/>
+  </g>
+</svg>

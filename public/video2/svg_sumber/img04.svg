@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 960" width="720" height="960">
+  <!-- Contact Shadow -->
+  <ellipse cx="360" cy="890" rx="180" ry="45" fill="#222222" fill-opacity="0.12"/>
+
+  <!-- Left Leg (Beige/Cream) -->
+  <g>
+    <polygon points="305,780 330,794 330,894 305,880" fill="#faf6ef"/>
+    <polygon points="330,794 355,780 355,880 330,894" fill="#e6dfd5"/>
+    <polygon points="330,766 355,780 330,794 305,780" fill="#ffffff"/>
+  </g>
+
+  <!-- Right Leg (Beige/Cream) -->
+  <g transform="translate(60, -20)">
+    <polygon points="305,780 330,794 330,894 305,880" fill="#faf6ef"/>
+    <polygon points="330,794 355,780 355,880 330,894" fill="#e6dfd5"/>
+    <polygon points="330,766 355,780 330,794 305,780" fill="#ffffff"/>
+  </g>
+
+  <!-- Torso (Teal Sweater) -->
+  <g>
+    <polygon points="290,600 360,640 360,780 290,740" fill="#1f9d8a"/>
+    <polygon points="360,640 430,600 430,740 360,780" fill="#14695c"/>
+    <polygon points="360,560 430,600 360,640 290,600" fill="#43c6b2"/>
+  </g>
+
+  <!-- Arms (Teal Sweater) -->
+  <!-- Left Arm -->
+  <g>
+    <polygon points="290,610 330,645 330,695 290,660" fill="#1f9d8a"/>
+    <polygon points="330,645 350,635 350,685 330,695" fill="#14695c"/>
+    <polygon points="290,610 310,600 350,635 330,645" fill="#43c6b2"/>
+  </g>
+  <!-- Right Arm -->
+  <g transform="translate(10, 0)">
+    <polygon points="420,610 380,645 380,695 420,660" fill="#14695c"/>
+    <polygon points="380,645 360,635 360,685 380,695" fill="#1f9d8a"/>
+    <polygon points="420,610 400,600 360,635 380,645" fill="#43c6b2"/>
+  </g>
+
+  <!-- Glowing Smartphone -->
+  <g transform="translate(345, 620)">
+    <polygon points="0,0 15,9 15,39 0,30" fill="#1f9d8a"/>
+    <polygon points="15,9 30,0 30,30 15,39" fill="#14695c"/>
+    <polygon points="0,0 15,-9 30,0 15,9" fill="#f59e0b"/>
+  </g>
+
+  <!-- Head (Cream) -->
+  <g>
+    <polygon points="310,440 360,469 360,539 310,510" fill="#faf6ef"/>
+    <polygon points="360,469 410,440 410,510 360,539" fill="#e6dfd5"/>
+    <polygon points="360,411 410,440 360,469 310,440" fill="#ffffff"/>
+    
+    <!-- Facial Features -->
+    <line x1="335" y1="465" x2="350" y2="474" stroke="#222222" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="370" y1="474" x2="385" y2="465" stroke="#222222" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="355" y1="505" x2="365" y2="505" stroke="#222222" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Hair (Ink Bob Cut) -->
+  <g>
+    <polygon points="305,430 360,462 360,522 305,490" fill="#222222"/>
+    <polygon points="360,462 415,430 415,490 360,522" fill="#111111"/>
+    <polygon points="360,398 415,430 360,462 305,430" fill="#222222"/>
+  </g>
+
+  <!-- Floating Digital Chat Bubbles (Social Elements) -->
+  <!-- Large Amber "Offer" Bubble -->
+  <g transform="translate(500, 480)">
+    <polygon points="-60,0 0,35 0,75 -60,40" fill="#f59e0b" fill-opacity="0.9"/>
+    <polygon points="0,35 20,23 20,63 0,75" fill="#d98c0a" fill-opacity="0.9"/>
+    <polygon points="-60,0 -40,-12 20,23 0,35" fill="#fbbf24"/>
+  </g>
+
+  <!-- Small White Bubble 1 -->
+  <g transform="translate(200, 420)">
+    <polygon points="0,0 30,17 30,47 0,30" fill="#ffffff" fill-opacity="0.8"/>
+    <polygon points="30,17 40,11 40,41 30,47" fill="#e6dfd5" fill-opacity="0.8"/>
+    <polygon points="0,0 10,-6 40,11 30,17" fill="#ffffff"/>
+  </g>
+
+  <!-- Small White Bubble 2 -->
+  <g transform="translate(550, 320)">
+    <polygon points="0,0 40,23 40,53 0,30" fill="#ffffff" fill-opacity="0.8"/>
+    <polygon points="40,23 50,17 50,47 40,53" fill="#e6dfd5" fill-opacity="0.8"/>
+    <polygon points="0,0 10,-6 50,17 40,23" fill="#ffffff"/>
+  </g>
+
+  <!-- Small Amber Bubble 3 -->
+  <g transform="translate(180, 600)">
+    <polygon points="0,0 20,12 20,32 0,20" fill="#f59e0b" fill-opacity="0.7"/>
+    <polygon points="20,12 30,6 30,26 20,32" fill="#d98c0a" fill-opacity="0.7"/>
+    <polygon points="0,0 10,-6 30,6 20,12" fill="#fbbf24"/>
+  </g>
+</svg>
