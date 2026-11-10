@@ -1,0 +1,183 @@
+{
+  "style": "explainer",
+  "scenes": [
+    {
+      "title": "*Jujur* ya,",
+      "start": 0,
+      "small": 0,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img01.png",
+          "h": 960
+        }
+      ],
+      "punch": "JUJUR",
+      "punchWord": "Jujur",
+      "punchAt": "low"
+    },
+    {
+      "title": "aku *berharap* *banget* diajarin hal ini dari dulu pas mau mulai jualan.",
+      "start": 0.6,
+      "small": 1,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img02.png",
+          "h": 960
+        }
+      ],
+      "pops": [
+        {
+          "word": "mulai",
+          "glyph": "🚀",
+          "anim": "slide-right",
+          "s": 0.95,
+          "object": "a rocket flying upward",
+          "img": "pics/pop01.png"
+        }
+      ]
+    },
+    {
+      "title": "*Caranya* *simpel* kok,",
+      "start": 4.9,
+      "small": 0,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img03.png",
+          "h": 960
+        }
+      ]
+    },
+    {
+      "title": "coba deh *tawarin* aja ke *teman-teman* dekat dulu lewat WA.",
+      "start": 6.1,
+      "small": 1,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img04.png",
+          "h": 960
+        }
+      ],
+      "punch": "TAWARIN",
+      "punchWord": "tawarin",
+      "punchAt": "top"
+    },
+    {
+      "title": "*Terus,* nggak *usah* terlalu pusing mikirin estetik dulu ya,",
+      "start": 9.7,
+      "small": 1,
+      "stage": [],
+      "look": "peach",
+      "sweep": true,
+      "pops": [
+        {
+          "word": "nggak",
+          "glyph": "⭐",
+          "anim": "pop",
+          "object": "a shiny star",
+          "img": "pics/pop02.png"
+        }
+      ]
+    },
+    {
+      "title": "yang *penting* *barangnya* kelihatan jelas.",
+      "start": 13.3,
+      "small": 0,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img05.png",
+          "h": 960
+        }
+      ],
+      "pops": [
+        {
+          "word": "barangnya",
+          "glyph": "📦",
+          "anim": "pop",
+          "s": 0.8,
+          "object": "a cardboard package box",
+          "img": "pics/pop03.png"
+        }
+      ]
+    },
+    {
+      "title": "Biar kamu nggak *rugi* *modal,* coba pakai sistem PO aja dulu.",
+      "start": 15.9,
+      "small": 1,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img06.png",
+          "h": 960
+        }
+      ],
+      "pops": [
+        {
+          "word": "modal",
+          "glyph": "💵",
+          "anim": "drop",
+          "s": 0.9,
+          "object": "a stack of banknotes",
+          "img": "pics/pop04.png"
+        }
+      ],
+      "punch": "RUGI",
+      "punchWord": "rugi",
+      "punchAt": "low"
+    },
+    {
+      "title": "*Nanti* kamu *pasti* bakal kaget sendiri lho pas lihat ternyata ada yang",
+      "start": 19.6,
+      "small": 1,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img07.png",
+          "h": 960
+        }
+      ]
+    },
+    {
+      "title": "*beli.* *Simpan* tips ini ya, biar kamu makin semangat buat mulai!",
+      "start": 23.8,
+      "small": 1,
+      "stage": [],
+      "look": "teal",
+      "sweep": true,
+      "collage": [
+        "img/img01.png",
+        "img/img02.png",
+        "img/img03.png",
+        "img/img05.png",
+        "img/img06.png"
+      ]
+    }
+  ],
+  "header": false,
+  "accent": "#22d3ee",
+  "charColor": "#222222",
+  "showCta": false,
+  "charStyle": "block",
+  "transitions": [
+    "fade"
+  ],
+  "transitionsMode": "random",
+  "backgrounds": [
+    "cream",
+    "sunset",
+    "paper",
+    "grid"
+  ],
+  "bgMode": "single",
+  "bgEvery": 1,
+  "theme": "dynamic",
+  "audio": {
+    "music": true,
+    "sfx": true,
+    "blockSfx": true
+  }
+}
